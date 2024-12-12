@@ -11,11 +11,16 @@ _**Внимание!**_ *Данная инструкция подходит дл
 git clone https://github.com/tyriksheyh4567/Shooter-Game.git
 ```
 ### Шаг 2:
-Затем конвертируйте файл игры в *.exe*, используя **pyinstaller** _(модуль в Python)_:<br>
+Затем перейдите в каталог проекта:
+```
+cd Shooter-Game
+```
+### Шаг 3:
+После этого конвертируйте файл игры в *.exe*, используя **pyinstaller** _(модуль в Python)_:<br>
 ```
 pyinstaller --noconfirm --onefile --windowed "\путь_вашей_игры\shooter_game.py"
 ```
-### Шаг 3:
+### Шаг 4:
 **Готово! Теперь вы можете запустить игру, открыв файл с ней в формате _.exe_!**
 
 ## ENG:
@@ -24,15 +29,20 @@ Gameplay screenshot:
 ![Gameplay screenshot](https://i.ibb.co/px3fr6Y/gameplay-screenshot.jpg)
 ## Build the game from source:
 _**Warning!**_ *This instruction is valid for use on **Windows** or **Linux** with **Wine/Proton.***
-### Шаг 1:
+### Step 1:
 Clone project using **Git**:<br>
 ```
 git clone https://github.com/tyriksheyh4567/Shooter-Game.git
 ```
-### Шаг 2:
+### Step 2:
+Now change directory to project one:
+```
+cd Shooter-Game
+```
+### Step 3:
 Then convert the file of the game to *.exe* with **pyinstaller** _(Python module)_:<br>
 ```
 pyinstaller --noconfirm --onefile --windowed "\путь_вашей_игры\shooter_game.py"
 ```
-### Шаг 3:
+### Step 4:
 **That's all! Now you can run the game, open the game file with _.exe_ format!**
