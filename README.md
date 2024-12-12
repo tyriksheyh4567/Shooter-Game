@@ -4,7 +4,7 @@
 Снимок геймплея:
 ![Снимок геймплея](https://i.ibb.co/px3fr6Y/gameplay-screenshot.jpg)
 ## Сборка игры из исходного кода
-Вначале клонируйте проект, используя Git:
+Вначале клонируйте проект, используя Git:<br>
 ```git clone https://github.com/tyriksheyh4567/Shooter-Game.git```
 ## ENG:
 It is a [shooter game](https://en.wikipedia.org/wiki/Shooter_game) written in **Python** using the *Pygame* library.\
