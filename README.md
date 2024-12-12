@@ -8,6 +8,8 @@
 ```
 git clone https://github.com/tyriksheyh4567/Shooter-Game.git
 ```
+<br>
+Затем 
 ## ENG:
 It is a [shooter game](https://en.wikipedia.org/wiki/Shooter_game) written in **Python** using the *Pygame* library.\
 Gameplay screenshot:
