@@ -4,11 +4,12 @@
 Снимок геймплея:
 ![Снимок геймплея](https://i.ibb.co/px3fr6Y/gameplay-screenshot.jpg)
 ## Сборка игры из исходного кода
+### 1:
 Вначале клонируйте проект, используя Git:<br>
 ```
 git clone https://github.com/tyriksheyh4567/Shooter-Game.git
 ```
-<br>
+### 2:
 Затем конвертируйте файл игры в .exe, используя _pyinstaller_:<br>
 ```pip
 pyinstaller --noconfirm --onefile --windowed "\путь_вашей_игры\shooter_game.py"
