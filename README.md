@@ -4,19 +4,35 @@
 Снимок геймплея:
 ![Снимок геймплея](https://i.ibb.co/px3fr6Y/gameplay-screenshot.jpg)
 ## Сборка игры из исходного кода
+_**Внимание!**_ *Данная инструкция подходит для использования с **Windows** или **Linux** с **Wine/Proton.***
 ### Шаг 1:
-Вначале клонируйте проект, используя Git:<br>
+Вначале клонируйте проект, используя **Git**:<br>
 ```
 git clone https://github.com/tyriksheyh4567/Shooter-Game.git
 ```
 ### Шаг 2:
-Затем конвертируйте файл игры в .exe, используя _pyinstaller_:<br>
+Затем конвертируйте файл игры в *.exe*, используя **pyinstaller** _(модуль в Python)_:<br>
 ```
 pyinstaller --noconfirm --onefile --windowed "\путь_вашей_игры\shooter_game.py"
 ```
-**Готово!**
+### Шаг 3:
+**Готово! Теперь вы можете запустить игру, открыв файл с ней в формате _.exe_!**
 
 ## ENG:
 It is a [shooter game](https://en.wikipedia.org/wiki/Shooter_game) written in **Python** using the *Pygame* library.\
 Gameplay screenshot:
 ![Gameplay screenshot](https://i.ibb.co/px3fr6Y/gameplay-screenshot.jpg)
+## Build the game from source:
+_**Warning!**_ *This instruction is valid for use on **Windows** or **Linux** with **Wine/Proton.***
+### Шаг 1:
+Clone project using **Git**:<br>
+```
+git clone https://github.com/tyriksheyh4567/Shooter-Game.git
+```
+### Шаг 2:
+Then convert the file of the game to *.exe* with **pyinstaller** _(Python module)_:<br>
+```
+pyinstaller --noconfirm --onefile --windowed "\путь_вашей_игры\shooter_game.py"
+```
+### Шаг 3:
+**That's all! Now you can run the game, open the game file with _.exe_ format!**
