@@ -18,7 +18,7 @@ cd Shooter-Game
 ### Шаг 3:
 После этого конвертируйте файл игры в *.exe*, используя **pyinstaller** _(модуль в Python)_:<br>
 ```
-pyinstaller --noconfirm --onefile --windowed "\путь_вашей_игры\shooter_game.py"
+pyinstaller --noconfirm --onefile --windowed "shooter_game.py"
 ```
 ### Шаг 4:
 **Готово! Теперь вы можете запустить игру, открыв файл с ней в формате _.exe_!**
